@@ -14,6 +14,9 @@ Author: Julius Remigio
 ## Proxies
 The proxies in proxy.txt was created using free public proxies that were available at the time of scraping. It should be updated regularly with working proxies to increase rate of success.
 
+*List of public proxies:*
+http://proxylist.hidemyass.com/
+
 ## Starting a scaping session:
 Sessions are started using scrapy CLI utility.
 Custom parameters are passed using the `-a` parameter. 
