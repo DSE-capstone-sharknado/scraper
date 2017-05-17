@@ -1,5 +1,5 @@
 # scraper
-Web Scraper used to scrape Amazon Product Pages
+Web Scraper used to scrape Amazon Product Pages and avoid capchas. 
 
 Author: Julius Remigio
 
