@@ -7,9 +7,11 @@ Author: Julius Remigio
 - [lxml](https://pypi.python.org/pypi/lxml/3.7.3) 
 - [scrapy](https://pypi.python.org/pypi/Scrapy/1.3.3)
 
+** Install required libraries: **
 `pip install -r requirements.txt`
 
 ## Middlewares used:
+See scrapy [documentation](https://doc.scrapy.org/en/latest/topics/spider-middleware.html):
 - https://github.com/alecxe/scrapy-fake-useragent
 - https://github.com/aivarsk/scrapy-proxies
 
