@@ -7,7 +7,8 @@ Author: Julius Remigio
 - [lxml](https://pypi.python.org/pypi/lxml/3.7.3) 
 - [scrapy](https://pypi.python.org/pypi/Scrapy/1.3.3)
 
-** Install required libraries: **
+**Install required libraries:**
+
 `pip install -r requirements.txt`
 
 ## Middlewares used:
