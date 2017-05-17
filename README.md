@@ -26,7 +26,7 @@ Custom Parameters:
 - file - csv file with column header 'asin' (list of amazon products to scrape)
 - html - folder to store html of scraped products
 
-Example:
+*Example:*
 ```bash
 scrapy crawl product -a html=./../../html -a file=./../reviews_Women.csv.gz -o ./../reviews_Women.jl --logfile ./../reviews_Women.csv.log
 ```
