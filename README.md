@@ -4,8 +4,10 @@ Web Scraper used to scrape Amazon Product Pages
 Author: Julius Remigio
 
 # Required Libraries
-- lxml
-- scrapy
+- [lxml](https://pypi.python.org/pypi/lxml/3.7.3) 
+- [scrapy](https://pypi.python.org/pypi/Scrapy/1.3.3)
+
+`pip install -r requirements.txt`
 
 ## Middlewares used:
 - https://github.com/alecxe/scrapy-fake-useragent
