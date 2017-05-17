@@ -1,6 +1,8 @@
 # scraper
 Web Scraper used to scrape Amazon Product Pages
 
+Author: Julius Remigio
+
 # Required Libraries
 - lxml
 - scrapy
