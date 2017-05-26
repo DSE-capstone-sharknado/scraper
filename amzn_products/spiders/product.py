@@ -100,7 +100,7 @@ class ProductSpider(scrapy.Spider):
             # save page
             filename = os.path.join(htmlpath, asin + '.html')
             with open(filename, 'wb') as f:
-                f.write(response.text.encode('utf-8')
+                f.write(response.text.encode('utf-8'))
                 self.log('Saved file %s' % filename)
 
         # return {
