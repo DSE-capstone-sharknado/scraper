@@ -27,7 +27,7 @@ class ProductSpider(scrapy.Spider):
                 for row in reader:
                     asin = str(row['asin'])
                     p_url = url + asin
-                    if asin not in skip:
+                    if asin not in skip and os.path.isfile(asin + '.html') == False:
                         yield scrapy.Request(p_url, self.parse, meta={'cookiejar': p_url})
                         skip.append(asin)
                     # break
@@ -102,7 +102,6 @@ class ProductSpider(scrapy.Spider):
             with open(filename, 'wb') as f:
                 f.write(response.text.encode('utf-8'))
                 self.log('Saved file %s' % filename)
-
         # return {
         #     'asin': asin,
         #     'NAME': NAME,
