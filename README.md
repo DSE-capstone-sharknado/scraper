@@ -41,4 +41,4 @@ Used to changing scraping behavior such as retries and middleware configuration
 spider directory contains all spider classes. Currently there is only a products spider for scraping amazon product pages.
 
 ## Notebooks
-Scraper Cleanup.ipynb is used for post processing of html files and generating output files for consumption
+Notebooks are used for transforming the data and preparing it for model consumption.
